@@ -1,5 +1,11 @@
 # Recursion
 
+Goal of this project is learn about recursion, and ways how to implement this concept instead
+of iterators. Learning process is by solving various programing problems with recursion.
+Recursion in computer science is a method of solving a problem where the solution depends 
+on solutions to smaller instances of the same problem (as opposed to iteration). The approach can be applied to many types of problems, and recursion is one of the central ideas of computer science.
+Learn more on [Wikipedia](https://en.wikipedia.org/wiki/Recursion_(computer_science)).
+
 ## Fibonacci sequence
 
 In mathematics, the Fibonacci numbers are the numbers in the following integer sequence, called the Fibonacci sequence, and characterized by the fact that every number after the first two is the sum of the two preceding ones:
@@ -14,6 +20,12 @@ Solution to this problem is made:
 ## Merge Sort
 
 In computer science, merge sort (also commonly spelled mergesort) is an efficient, general-purpose, comparison-based sorting algorithm. Most implementations produce a stable sort, which means that the implementation preserves the input order of equal elements in the sorted output. Merge sort is a divide and conquer algorithm. Learn more on [Wikipedia](https://en.wikipedia.org/wiki/Merge_sort).
+
+Solution to this problem is made:
+1. recursively with helper method - merge1, more traditional syntax
+2. recursively with helper method - merge1, more ruby way syntax
+
+## Additional recursive problems
 
 This project is part of [The Odin Project curriculum](https://www.theodinproject.com/). 
 Awesome on-line web development learning place!

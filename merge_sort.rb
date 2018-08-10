@@ -1,17 +1,16 @@
 def merge_sort(arr)
 	if arr.size < 2
-		return
+		return arr
 	else
-		left = arr.slice(0, arr.size / 2)
-		right = arr.slice(arr.size / 2, arr.size - 1)
-		merge_sort(left)
-		merge_sort(right)
+		left = merge_sort(arr.slice(0, arr.size / 2))
+		right = merge_sort(arr.slice(arr.size / 2, arr.size - 1))
 
-		merger(left, right, arr)
+		#merge1(left, right, arr)
+		merge2(left, right)
 	end
 end
 
-def merger(left, right, result)
+def merge1(left, right, result) #traditional way
 	l = 0
 	r = 0
 	x = 0
@@ -39,24 +38,20 @@ def merger(left, right, result)
 	result
 end
 
-#p merger([1,3,4],[2,5,6],[])
-
-
-
-def merge2(left, right, result = [])
+def merge2(left, right, result = []) #ruby like way
 	until left.empty? || right.empty?
 		(left[0] < right[0]) ? result << left.shift : result << right.shift
 	end	
-	if left.empty? 
-			result += right
-	end
-	if right.empty? 
-		result += left
-	end
+	result += right if left.empty?
+	result += left if right.empty? 
 	result
 end
 
-
 p merge_sort([5,3,4,2,1,8,7,6])
+puts
 x = (1..100).to_a.reverse
+y = 20.times.map {rand(100) + 1}
+
 p merge_sort(x)
+puts
+p merge_sort(y)
