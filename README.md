@@ -27,5 +27,12 @@ Solution to this problem is made:
 
 ## Additional recursive problems
 
+This part contains spoilers for [Project Euler](https://projecteuler.net/) solutions so be careful!
+Project Euler is a website dedicated to a series of computational problems intended to be solved with computer programs.
+Problems solved:
+1. Multiples of 3 and 5
+2. Even Fibonacci numbers
+3. 
+
 This project is part of [The Odin Project curriculum](https://www.theodinproject.com/). 
 Awesome on-line web development learning place!
