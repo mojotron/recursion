@@ -1,6 +1,6 @@
 # Recursion
 
-Goal of this project is learn about recursion, and ways how to implement this concept instead
+Goal of this project is to learn about recursion, and ways how to implement this concept instead
 of iterators. Learning process is by solving various programing problems with recursion.
 Recursion in computer science is a method of solving a problem where the solution depends 
 on solutions to smaller instances of the same problem (as opposed to iteration). The approach can be applied to many types of problems, and recursion is one of the central ideas of computer science.
@@ -32,7 +32,7 @@ Project Euler is a website dedicated to a series of computational problems inten
 Problems solved:
 1. Multiples of 3 and 5
 2. Even Fibonacci numbers
-3. 
+3. Largest prime factor
 
 This project is part of [The Odin Project curriculum](https://www.theodinproject.com/). 
 Awesome on-line web development learning place!
