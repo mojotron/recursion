@@ -47,11 +47,8 @@ def merge2(left, right, result = []) #ruby like way
 	result
 end
 
-p merge_sort([5,3,4,2,1,8,7,6])
-puts
-x = (1..100).to_a.reverse
-y = 20.times.map {rand(100) + 1}
-
-p merge_sort(x)
-puts
-p merge_sort(y)
+#p merge_sort([5,3,4,2,1,8,7,6])
+#x = (1..100).to_a.reverse
+#y = 20.times.map {rand(100) + 1}
+#p merge_sort(x)
+#p merge_sort(y)

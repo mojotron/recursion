@@ -25,6 +25,13 @@ Solution to this problem is made:
 1. recursively with helper method - merge1, more traditional syntax
 2. recursively with helper method - merge1, more ruby way syntax
 
+## Binary Search
+
+Binary search works on sorted arrays. Binary search begins by comparing the middle element of the array with the target value. If the target value matches the middle element, its position in the array is returned. If the target value is less than the middle element, the search continues in the lower half of the array. If the target value is greater than the middle element, the search continues in the upper half of the array. By doing this, the algorithm eliminates the half in which the target value cannot lie in each iteration. Learn more on [Wikipedia](https://en.wikipedia.org/wiki/Binary_search_algorithm).
+
+Solution to this problem is made:
+1. recursively with - binary_search method, and with help of mearg_sort (previously defined) method for sorting array
+
 ## Additional recursive problems
 
 This part contains spoilers for [Project Euler](https://projecteuler.net/) solutions so be careful!
