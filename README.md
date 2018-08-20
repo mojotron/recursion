@@ -32,6 +32,18 @@ Binary search works on sorted arrays. Binary search begins by comparing the midd
 Solution to this problem is made:
 1. recursively with - binary_search method, and with help of mearg_sort (previously defined) method for sorting array
 
+## Integer multiplication algorithm
+
+A multiplication algorithm is an algorithm (or method) to multiply two numbers. Depending on the size of the numbers, different algorithms are in use. Learn more on [Wikipedia](https://en.wikipedia.org/wiki/Multiplication_algorithm).
+
+For systems that need to multiply numbers in the range of several thousand digits, such as computer algebra systems and bignum libraries, long multiplication is too slow. These systems may employ Karatsuba multiplication, which was discovered in 1960 (published in 1962). The heart of Karatsuba's method lies in the observation that two-digit multiplication can be done with only three rather than the four multiplications classically required. Learn more on [Wikipedia](https://en.wikipedia.org/wiki/Karatsuba_algorithm).
+
+Algoritham made in this project are part of [Coursera - Design and Analysis of Algorithms course](https://www.youtube.com/watch?v=u2TwK3fED8A).
+
+Solution to this problem is made:
+1. standard_multiplication method (4 recursion calls)
+2. karatsuba_multiplication method (3 recursion calls)
+
 ## Additional recursive problems
 
 This part contains spoilers for [Project Euler](https://projecteuler.net/) solutions so be careful!
